@@ -13,6 +13,7 @@ def obtener_valor_n():
                 return n
         except ValueError:
             print("Entrada no válida. Por favor, ingresa un valor entero.")
+             
 
 def generar_fibonacci(n):
     secuencia = []
