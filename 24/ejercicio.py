@@ -1,6 +1,4 @@
 import random
-
-# Lista predefinida de palabras
 palabras = ["manzana", "elefante", "mesa", "silla", "amarillo", "oso", "uña", "árbol", "luz", "zapato"]
 
 def es_palabra_valida(palabra, ultima_letra, usadas):
