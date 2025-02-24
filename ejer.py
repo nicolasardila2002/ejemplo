@@ -1,9 +1,14 @@
-def puede :entrar(nombre,edad):
-if edad < 18:
-    print(nombre,"no puede entrar")
-else:
-    print(nombre,"puede entrar")
+def puede_entrar(nombre, edad):
+    if edad < 18:
+        return nombre + "No puede entrar"
+    else:
+        return nombre +" Puede entrar"
+    
+    print ("Fin de la aplicacion")
+
+print(puede_entrar("NICOLAS", 20))
+print
+ 
 
 
-    puede_entrar("camila","quince")
-    puede_entrar("Nicolas",20)
+
